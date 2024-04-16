@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  7d5435e8-b0ad-4c68-ad18-04dc9ac31917:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4b419c64-62bb-47ab-b418-6b50a3452be2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Parent Field'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79637d62-6eaf-4cd8-9709-04bb5ca9b01e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2eea58ff-73a7-4ce9-8344-f9d72a69acfd
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Another Parent'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ae6578b-316a-4ce5-a097-5d2091d7e875
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b7f39a07-2114-4c8b-9bcc-761d653519ab
+        userCondition: null
+handle: aNavNestedFieldsBlock
+hasTitleField: false
+icon: null
+name: 'A nav nested Fields Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

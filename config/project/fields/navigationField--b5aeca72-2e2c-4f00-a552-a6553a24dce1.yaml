@@ -1,0 +1,9 @@
+columnSuffix: mpmgseet
+contentColumnType: text
+handle: navigationField
+instructions: 'I am the navigation Field'
+name: 'Navigation Field'
+searchable: false
+translationKeyFormat: null
+translationMethod: site
+type: verbb\navigation\fields\NavigationField

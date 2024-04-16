@@ -1,0 +1,58 @@
+fieldLayouts:
+  9c129082-ff9c-4aa3-ad45-2dc022731514:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 74e9bd76-8c74-4723-99a5-6db73a8fcd94
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e5fee05c-b478-4731-9487-7e1c6231c8ed # Alinkit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 224847e5-00f1-4e4d-a014-e667dccc13e2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 77b248c0-1eb9-40f0-9595-aa9fb9735b1c
+        userCondition: null
+handle: introduction
+hasTitleField: true
+name: EntLinkit
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

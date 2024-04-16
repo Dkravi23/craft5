@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - f3f95bdd-2a44-449d-8fa8-a4c78d5c7bbf # Hypers add
+handle: hypersSection
+name: 'Hypers section'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabledByDefault: true
+    hasUrls: true
+    template: hypers-section/_entry
+    uriFormat: 'hypers-section/{slug}'
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabledByDefault: true
+    hasUrls: true
+    template: hypers-section/_entry
+    uriFormat: 'hypers-section/{slug}'
+  e57db4c9-d175-4d90-a17b-56a4a2b6fd61: # French
+    enabledByDefault: true
+    hasUrls: true
+    template: hypers-section/_entry
+    uriFormat: 'hypers-section/{slug}'
+type: channel

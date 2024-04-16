@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: aNewFieldWithEntryType01
+instructions: null
+name: 'A new field with entry type 01'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 859f9e22-62b1-44d2-b7f0-00911d874063 # New entry type 01
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: aNestedFields
+instructions: 'This is nested Fields'
+name: 'A nested Fields'
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: null
+  entryTypes:
+    - 859f9e22-62b1-44d2-b7f0-00911d874063 # New entry type 01
+    - 56ecec8a-04ab-456b-b535-5939f8c2cbc0 # A Super table fileds Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

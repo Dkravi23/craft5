@@ -1,0 +1,8 @@
+columnSuffix: oxcxejli
+handle: navigation1
+instructions: null
+name: 'A Super table fileds - Navigation 1'
+searchable: false
+translationKeyFormat: null
+translationMethod: site
+type: verbb\navigation\fields\NavigationField

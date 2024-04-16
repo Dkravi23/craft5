@@ -1,0 +1,9 @@
+baseUrl: '@web/fr-CA'
+enabled: '1'
+handle: french
+hasUrls: true
+language: fr-CA
+name: French
+primary: false
+siteGroup: 4b6d893d-380e-4fbc-970b-ed925fba9aaf # Spoke & Chain
+sortOrder: 3

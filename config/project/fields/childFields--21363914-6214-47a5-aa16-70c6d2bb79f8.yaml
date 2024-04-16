@@ -1,0 +1,8 @@
+columnSuffix: verzclmt
+handle: childFields
+instructions: null
+name: 'Another Parent - Child block - Child Fields'
+searchable: false
+translationKeyFormat: null
+translationMethod: site
+type: verbb\navigation\fields\NavigationField

@@ -1,0 +1,9 @@
+baseUrl: '@web/'
+enabled: '1'
+handle: dutch
+hasUrls: true
+language: nl-NL
+name: Dutch
+primary: false
+siteGroup: 4b6d893d-380e-4fbc-970b-ed925fba9aaf # Spoke & Chain
+sortOrder: 4

@@ -1,0 +1,42 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - e83b5800-3833-4747-bd6a-a92570030783 # A zero mat block
+handle: theZeroMatSectionSingle
+maxAuthors: 1
+name: 'The zero mat section single'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  31c98fcc-97ce-40f9-bc6e-ff05853624ff: # Dutch
+    enabledByDefault: true
+    hasUrls: true
+    template: the-zero-mat-section-single/_entry
+    uriFormat: the-zero-mat-section-single
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabledByDefault: true
+    hasUrls: true
+    template: the-zero-mat-section-single/_entry
+    uriFormat: the-zero-mat-section-single
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabledByDefault: true
+    hasUrls: true
+    template: the-zero-mat-section-single/_entry
+    uriFormat: the-zero-mat-section-single
+  e57db4c9-d175-4d90-a17b-56a4a2b6fd61: # French
+    enabledByDefault: true
+    hasUrls: true
+    template: the-zero-mat-section-single/_entry
+    uriFormat: the-zero-mat-section-single
+type: single

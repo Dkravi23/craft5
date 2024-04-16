@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  16c52f3a-ebe4-4355-a357-590866c59dee:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 41c319ce-bb10-48a1-90c1-1aaae572f86b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86ec2b26-5d53-4798-8fb0-927890e52039 # Body
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79a4af39-cdde-4b4c-adb8-f20c768bc2cc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c7e3e57c-8020-4fe0-a743-e1d7a5940c15
+        userCondition: null
+handle: newEntryType01
+hasTitleField: true
+icon: ''
+name: 'New entry type 01'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

@@ -1,0 +1,70 @@
+fieldLayouts:
+  e3b86dcf-3959-44d1-8219-250dc21fe2f7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0b1c29b2-c775-4d9a-8202-9161484243e8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 708be4d3-74b6-4389-a32f-aebc64f33b0d # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12861b6f-be98-4c0e-8edb-ad4adda0feaa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5e5432bd-eb9b-481a-baa1-77cfbecbd529 # My ck title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d2092da-4de5-41ef-8b67-447fe336d347
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d3e82826-879e-4e65-bf79-e25dfbeeb9c3
+        userCondition: null
+handle: tryNewTemp
+hasTitleField: false
+name: 'Try new Temp'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

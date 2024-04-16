@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  9e03f886-844e-4e49-8004-8241938edcd2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ce70484b-dd3c-494d-b1f2-360fc20bc4a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4f1a5b5f-cd1a-4c83-b31a-c7f9f3daa4bc # a zero fields
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be028a55-cb45-4d7b-a3a4-b9febd05940a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5b115477-1a8c-4bf2-854b-8c4779a1991c
+        userCondition: null
+handle: aZeroMat01
+hasTitleField: true
+icon: ''
+name: 'A zero mat 01'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

@@ -1,0 +1,95 @@
+color: green
+fieldLayouts:
+  1c8e4b67-6778-433b-a563-0379ea5afa68:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2bd5db0b-cfa6-476d-ba5b-80edb25782fc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86ec2b26-5d53-4798-8fb0-927890e52039 # Body
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d152c4e-8b09-49d9-a660-6805b6b067b0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 18ab3594-a62d-4903-9c6c-b791d64fd4ad
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bbd0186e-dedd-46a6-9ce5-a3cc73a25838
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb3481b3-e34c-4104-b4da-6f86236f44ca # Product
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b092819-3da0-4dbf-8ee7-885c141ff42a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 98be2242-98f0-4d1c-b60e-d521433c3a50
+        userCondition: null
+handle: aNewEntryType
+hasTitleField: true
+icon: bag-shopping
+name: 'A new entry type'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: aMatrixFields
+instructions: null
+name: 'A matrix fields'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 434e369c-884b-4e34-8dcb-63946f3bf52e # A new entry type
+    - 1620c507-acc0-4d72-ab32-2228a73a088d # Bikes
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

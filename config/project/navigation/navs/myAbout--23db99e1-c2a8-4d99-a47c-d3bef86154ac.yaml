@@ -1,0 +1,132 @@
+defaultPlacement: end
+fieldLayouts:
+  ed5adb51-164a-458d-9fc7-68c2b444eea8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: e3458c17-3bc0-40eb-b17c-1cd4a349c64e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: classes
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: verbb\navigation\fieldlayoutelements\ClassesField
+            uid: ca4b0c75-28e5-4428-837a-e375284723b1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: verbb\navigation\fieldlayoutelements\NodeTypeElements
+            uid: cf8028fd-d96b-4355-b474-761e180890a6
+            userCondition: null
+            warning: null
+          -
+            elementCondition: null
+            fieldUid: b5aeca72-2e2c-4f00-a552-a6553a24dce1 # Navigation Field
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 994ac6db-ef4f-44cc-80f2-ffb369bc645a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Node
+        uid: b98ab33a-00cd-4fbc-9e33-5f12fc061664
+        userCondition: null
+handle: myAbout
+instructions: 'This is about description'
+maxNodes: null
+name: 'My About'
+permissions:
+  craft\commerce\elements\Product:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Asset:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Category:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  verbb\navigation\nodetypes\CustomType:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+  verbb\navigation\nodetypes\SiteType:
+    enabled: '1'
+propagationMethod: all
+siteSettings:
+  31c98fcc-97ce-40f9-bc6e-ff05853624ff: # Dutch
+    enabled: true
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabled: true
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabled: true
+  e57db4c9-d175-4d90-a17b-56a4a2b6fd61: # French
+    enabled: true
+sortOrder: 4
+structure:
+  maxLevels: null
+  uid: 60467bba-9556-4708-bb8d-0153de78ed52

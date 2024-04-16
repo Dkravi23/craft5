@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - f2df390b-5944-4f48-af72-4282086a9665 # The verb navigation
+handle: aVerbbNav
+name: 'A verbb Nav'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabledByDefault: true
+    hasUrls: true
+    template: a-verbb-nav/_entry
+    uriFormat: 'a-verbb-nav/{slug}'
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabledByDefault: true
+    hasUrls: true
+    template: a-verbb-nav/_entry
+    uriFormat: 'a-verbb-nav/{slug}'
+  e57db4c9-d175-4d90-a17b-56a4a2b6fd61: # French
+    enabledByDefault: true
+    hasUrls: true
+    template: a-verbb-nav/_entry
+    uriFormat: 'a-verbb-nav/{slug}'
+type: channel

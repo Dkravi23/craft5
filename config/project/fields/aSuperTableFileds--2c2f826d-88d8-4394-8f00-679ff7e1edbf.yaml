@@ -1,0 +1,24 @@
+columnSuffix: null
+contentColumnType: string
+handle: aSuperTableFileds
+instructions: null
+name: 'A Super table fileds'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 728895105
+  entryTypes:
+    - 56ecec8a-04ab-456b-b535-5939f8c2cbc0 # A Super table fileds Block
+  fieldLayout: row
+  maxEntries: null
+  maxRows: null
+  minEntries: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

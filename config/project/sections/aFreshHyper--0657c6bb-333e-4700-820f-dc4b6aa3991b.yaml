@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 70db1088-af22-485e-b357-7d5774e76888 # Introduction
+handle: aFreshHyper
+name: 'A fresh Hyper'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabledByDefault: true
+    hasUrls: true
+    template: Hyper/_entry
+    uriFormat: 'a-fresh-hyper/{slug}'
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabledByDefault: true
+    hasUrls: true
+    template: Hyper\_entry.twig
+    uriFormat: 'a-fresh-hyper/{slug}'
+type: channel

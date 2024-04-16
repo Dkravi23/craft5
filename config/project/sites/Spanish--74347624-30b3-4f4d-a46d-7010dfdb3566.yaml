@@ -1,0 +1,9 @@
+baseUrl: '@web/es-US'
+enabled: '1'
+handle: Spanish
+hasUrls: true
+language: es-US
+name: Spanish-US
+primary: false
+siteGroup: 4b6d893d-380e-4fbc-970b-ed925fba9aaf # Spoke & Chain
+sortOrder: 2

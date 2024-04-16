@@ -1,0 +1,440 @@
+dateModified: 1713276665
+email:
+  fromEmail: support@craftcms.com
+  fromName: 'Spoke & Chain'
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    encryptionMethod: ''
+    host: $SMTP_HOST
+    password: ''
+    port: $SMTP_PORT
+    timeout: '10'
+    useAuthentication: ''
+    username: ''
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  images:
+    hasUrls: false
+    name: Images
+    settings:
+      path: '@storage/runtime/temp'
+    type: craft\fs\Local
+    url: null
+  imagesLocal:
+    hasUrls: true
+    name: 'Images (local)'
+    settings:
+      path: '@webroot/assets/volumes/images'
+    type: craft\fs\Local
+    url: '@web/assets/volumes/images'
+  runtime:
+    hasUrls: false
+    name: Runtime
+    settings:
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
+      bucket: $S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: ''
+      makeUploadsPublic: false
+      region: $AWS_REGION
+      secret: ''
+      storageClass: ''
+      subfolder: runtime
+    type: craft\awss3\Fs
+    url: null
+meta:
+  __names__:
+    0b6f81b0-efbb-446d-bc40-e3f2bdaf7f88: 'A zero mat 01' # A zero mat 01
+    0dbacfe0-78ef-48ff-95a3-b7eb4dc8be86: Emails # Emails
+    0e0e148e-75b4-4e97-8ae9-48df3ffae983: 'A linkit on' # A linkit on
+    0f590e76-b015-4dad-b3b6-4bc6e721c244: 'Order Received' # Order Received
+    0f952e73-17b8-408c-9c37-3f07a5d16a92: 'Error Pages' # Error Pages
+    1aa7ba0a-4a24-4efc-a2b1-a1eb9109f448: 'A new section entry type 01' # A new section entry type 01
+    2a2f0ac5-fb77-412b-8259-4445f3520dae: Shop # Shop
+    2af1095c-7195-4f2b-ad59-d4e36ee17dd9: Services # Services
+    2c2f826d-88d8-4394-8f00-679ff7e1edbf: 'A Super table fileds' # A Super table fileds
+    2e801228-c4ea-42cb-a1ec-78b1ae5cca51: 'Try new Temp' # Try new Temp
+    2f1cb27f-14f7-4ee2-aa87-fb01a8752c05: 'My new Nav' # My new Nav
+    2fad1c7c-c4f2-4fdf-9154-8c88bcc18db5: 'Landing Pages' # Landing Pages
+    03b7bc53-c8e9-48e4-8f45-da16de73909b: Material # Material
+    3bf61771-4a03-4481-a18d-13614d98bff7: 'A Nav Section' # A Nav Section
+    3cf27ec2-5d4b-4dac-af56-6e0aac6c506f: Navigation # Navigation
+    3f6ea30f-2fa6-4eb6-bb35-2e8a9d82c6d6: 'A verbb Nav' # A verbb Nav
+    4a10f56c-01ce-4d4b-b40e-03fd56635639: Address # Address
+    4b6d893d-380e-4fbc-970b-ed925fba9aaf: 'Spoke & Chain' # Spoke & Chain
+    4cf257d3-bb2c-4049-98bf-d0c0ec90e560: 'The zero mat section single' # The zero mat section single
+    4f1a5b5f-cd1a-4c83-b31a-c7f9f3daa4bc: 'a zero fields' # a zero fields
+    5a97754b-a6d0-41f2-ba98-cf145d689df1: Colors # Colors
+    5c303148-3a82-4d88-b7c2-440ed51a6c1b: 'A check mat field' # A check mat field
+    5d0212ce-bd15-4554-8650-4bd40d99e5dc: 'Try new' # Try new
+    5e5432bd-eb9b-481a-baa1-77cfbecbd529: 'My ck title' # My ck title
+    5f3f9d21-e4a4-40d6-b80f-a92d99e02926: 'Show Form' # Show Form
+    6bc7dae2-daac-4d7d-810f-04ba47f9d0a8: 'A craft5 sect' # A craft5 sect
+    6d31d986-3035-4ab6-8382-755d60c63210: 'A zero mat fields 011' # A zero mat fields 011
+    06e900c5-0757-485f-bda2-2875772bbe25: Colors # Colors
+    7b8c33d5-84b4-4fc2-90e4-5f40d1b1454f: 'Top nav' # Top nav
+    7e2085d8-34c4-41a9-81fc-db0fef15293f: Cart # Cart
+    7f6d1fe4-217c-4fbc-9812-1a7e5b1189c9: 'A Nav Section' # A Nav Section
+    8b2b60fd-6045-4696-b08e-6c601ac1245f: 'Content Managers' # Content Managers
+    9b9e7f64-d3ac-4cd8-9ac6-2dad92ba68f1: Contact # Contact
+    9b41a7f2-dc44-4ede-8931-b8f5895093f7: 'Image Alt' # Image Alt
+    09bcc0a5-a168-4802-ad52-1ea6cdb879eb: 'A zero mat 01' # A zero mat 01
+    9c6bb65a-7402-4228-a5f6-395b3ff4365c: 'Hero ck editor' # Hero ck editor
+    17eacd1a-f88d-4127-b328-9b69903624fc: Orders # Orders
+    20eb0536-818f-47ab-b3d8-762b36d90162: 'Checkout: Success' # Checkout: Success
+    21dd60d6-92a7-4e82-8884-7dbe57d73c6c: Account # Account
+    23db99e1-c2a8-4d99-a47c-d3bef86154ac: 'My About' # My About
+    24daf9b4-bce0-43b4-aef8-268077f37460: 'a zero entry' # a zero entry
+    27dc92a5-4575-4a37-ad4a-09eed2b40038: Page # Page
+    31c98fcc-97ce-40f9-bc6e-ff05853624ff: Dutch # Dutch
+    32faa6bc-a330-408a-b37a-4e8bde606b43: Reviews # Reviews
+    33b8424b-2140-4fc1-a0bb-6b07da33b045: 'Checkout: Address' # Checkout: Address
+    42b7e744-7597-4a2c-991e-8ba00290c19f: Checkout # Checkout
+    51e3a5d4-240b-447d-88c5-443e30489a59: 'Equipment Type' # Equipment Type
+    54f6a656-b4ef-4d80-86dc-2ed613f64056: 'Business Hours' # Business Hours
+    56ecec8a-04ab-456b-b535-5939f8c2cbc0: 'A Super table fileds Block' # A Super table fileds Block
+    58f90099-0367-42d6-a8e0-076eab66373b: 'Checkout: Summary' # Checkout: Summary
+    63ae8822-3b4e-4a3d-b902-eba33875c230: Footer # Footer
+    68e89100-65f8-4cef-9eee-a07652f3e68a: PDFs # PDFs
+    69bda45f-d46b-45e8-a69a-beeee674bf71: 'A zero sections' # A zero sections
+    70db1088-af22-485e-b357-7d5774e76888: Introduction # Introduction
+    70e125cc-65ea-4a3f-a65f-a5c91efcbfe7: Checkout # Checkout
+    70f7bcb3-a273-4e86-835b-44cf165d1c6d: 'A Nested Flex' # A Nested Flex
+    74c53fbd-78e5-4125-87f7-38c75efce7d3: Cart # Cart
+    77bd0dab-6333-4b99-8a94-7e6042944ba7: Received # Received
+    80ecf0b4-3e4a-4f0e-af8e-911caa4a7ef1: 'A zero mat 01' # A zero mat 01
+    80f4d1bd-7876-46f3-8551-720d74ebed17: Default # Default
+    86ec2b26-5d53-4798-8fb0-927890e52039: Body # Body
+    088dc60e-2197-499b-9a5a-af2132ea3038: 'Hero ck editor' # Hero ck editor
+    89d30b8d-7f71-4571-bfd3-572a14dc6538: 'VIP Customers' # VIP Customers
+    89d27458-8fdf-43c4-9690-dcf52aa73bfe: 'A test section 011' # A test section 011
+    97a0491d-814e-4172-811d-51096a86e67d: Plans # Plans
+    144eafb4-8a07-46d0-a4b2-e85237275206: 'Plan Features' # Plan Features
+    220feec1-8cc9-4f3e-82da-73c748d0ae0b: PDFs # PDFs
+    229f9f29-ca35-402b-973b-8fb12d4d68ec: Customers # Customers
+    344f5ef7-49f4-463b-854e-14b57001ee32: Color # Color
+    434e369c-884b-4e34-8dcb-63946f3bf52e: 'A new entry type' # A new entry type
+    449f7b84-6b85-4caa-9b9e-1575953516a8: Settings # Settings
+    473de3f9-0bc6-48fb-8a18-4b8a81438f3e: 'acclaro drums' # acclaro drums
+    506e9a86-f8ca-4f35-bffc-21da95813979: Articles # Articles
+    568f3b2d-af36-416e-b396-1ab2775d4fef: 'Home Block' # Home Block
+    0657c6bb-333e-4700-820f-dc4b6aa3991b: 'A fresh Hyper' # A fresh Hyper
+    705abccb-1d21-44fe-a3f7-87530e29cd34: 'Product Images' # Product Images
+    708be4d3-74b6-4389-a32f-aebc64f33b0d: Heading # Heading
+    835d78d0-3852-441d-9ac9-2a4bd94424d5: 'A fa nav' # A fa nav
+    859f9e22-62b1-44d2-b7f0-00911d874063: 'New entry type 01' # New entry type 01
+    863e8c8e-f742-40c9-8840-ab92612b7ed5: EntLinkit # EntLinkit
+    887d482f-6976-44b0-b481-5e49cfd58074: 'A new field with entry type 01' # A new field with entry type 01
+    891c8373-a143-43b3-a0a1-8b437e97304e: 'A nested Fields' # A nested Fields
+    994a420b-cb3e-4813-be6a-dd7ac7f55c6b: Images # Images
+    1620c507-acc0-4d72-ab32-2228a73a088d: Bikes # Bikes
+    2170bde4-2ca6-4d6f-b2d0-7367050a564a: Membership # Membership
+    5075e975-0eb8-4e62-9ae7-9d8cd88348eb: Emails # Emails
+    5572edd6-3495-4a53-8f09-68bb6c53d79a: 'Main Image' # Main Image
+    5712e1f3-7800-493e-b74b-c2887dc25c81: 'Spoke & Chain' # Spoke & Chain
+    8600c9be-5c26-480d-ac2e-89d3d283bc40: 'A zero mat section structure' # A zero mat section structure
+    8680f635-edfc-4169-a039-4c4a489258d7: Homepage # Homepage
+    19549c94-cebb-4606-a533-aaef9dc49de7: Geometry # Geometry
+    21814db2-4816-41e4-bdc9-7d25e0869666: Register # Register
+    22803a4d-1cbf-43ab-8819-549c8df61e86: Hypers # Hypers
+    56579ab7-dd43-426d-a734-d7fbc26fa861: Search # Search
+    60203e95-0439-4fdf-a99f-b85c845abc12: Homepage # Homepage
+    74313ad6-db0c-4c64-a2ae-ea69e418c6bf: 'Try new' # Try new
+    81039de6-8440-4a7f-85f4-2e5753d11e15: Simple # Simple
+    92145d02-d68b-4c71-a8be-fa082467d8fc: 'Checkout: Shipping' # Checkout: Shipping
+    363966b4-814e-4894-b747-a7e09d01278c: 'A matrix fields' # A matrix fields
+    384841aa-9783-4efd-a81f-0f4aa159ab33: Bikes # Bikes
+    562224df-c083-4f48-b0b3-7bdcb9bd8df9: Material # Material
+    706870b0-b231-4710-947c-e3e6bd5c7062: 'Articles Landing' # Articles Landing
+    938640bc-562a-4bde-9ab8-4c0b3489b21f: Login # Login
+    03450688-d7c8-4bc8-bd13-fff95a960e2b: Bike # Bike
+    45736170-97df-40d3-95b7-41f641c8d3d0: 'Public Schema' # Public Schema
+    54270892-e602-4f54-abf5-d9caa2bdd1bd: 'My nested Navigation' # My nested Navigation
+    74347624-30b3-4f4d-a46d-7010dfdb3566: Spanish-US # Spanish-US
+    a3bf7c5e-7238-4c5d-bb83-0f4080941958: Dummy # Dummy
+    a3c8b29f-9d89-4be2-be72-584df0d07edd: 'My navigation' # My navigation
+    a9d8c265-1ab4-4dc0-8408-7889d17f4e02: 'Order Shipped' # Order Shipped
+    a42d1365-22cd-445e-9e10-43dc721bddbe: Button # Button
+    a59ec6d1-b9f7-4b31-a8fa-405d50e2e6c0: 'acclaro drums' # acclaro drums
+    a853d93f-f289-4671-b5d1-61a8099d5abb: 'Articles Landing' # Articles Landing
+    a47082e1-a4c7-48c4-b08e-e84d5dae0956: Search # Search
+    aa9bb63f-85d8-4935-8f06-939e8b8707ae: Delivered # Delivered
+    aa40a16f-55f6-4e2c-818c-5e1f6a3a5b57: 'Bike Types' # Bike Types
+    ab006600-8f38-47a9-a12d-6627bcac15d9: 'Checkout: Shipping' # Checkout: Shipping
+    ab1e76a4-82ae-4059-900e-5f9d8df35d49: Articles # Articles
+    acc12fef-5130-43fe-97ca-e77013797195: Shipped # Shipped
+    b5aeca72-2e2c-4f00-a552-a6553a24dce1: 'Navigation Field' # Navigation Field
+    b9cb6112-ebae-420b-bae9-a54c387419f6: 'Footer Nav' # Footer Nav
+    ba0c0b5b-813d-4075-acec-9700550b80ae: 'Image Caption' # Image Caption
+    ba795823-7853-4c7d-8337-136027e1e738: Bikes # Bikes
+    bd167f4d-e985-4aec-b6e4-9ba85fbe69f9: 'Content Blocks' # Content Blocks
+    be4e2a2f-de59-4443-a08e-476d20bc36d6: Plans # Plans
+    bf18c870-a8f0-4fe5-9b57-af389e5dbc81: 'A checkmat sect 01' # A checkmat sect 01
+    c3af370d-8c71-468a-b040-1583d3342b27: 'Checkout: Summary' # Checkout: Summary
+    c31c5919-08e9-4f36-a47e-1c2c169b993a: 'Error Pages' # Error Pages
+    c41d2205-c49f-48ac-9313-177916b70313: 'Checkout: Success' # Checkout: Success
+    c606c2dd-166c-4911-a3a1-0a2a2cd1b846: 'A plain text' # A plain text
+    cb3481b3-e34c-4104-b4da-6f86236f44ca: Product # Product
+    ceb4129c-6b22-4ee0-8569-c4fc99f579de: 'A Check mat address' # A Check mat address
+    d3fad61c-dfb9-4da2-bb75-6d2910c3c4ca: 'Plain Text 1' # Plain Text 1
+    d64cd626-dade-430d-98d1-9b9be69592c0: Services # Services
+    d1927da5-c26d-4063-b443-dc05b85a6468: 'Checkout: Address' # Checkout: Address
+    d73067ce-256e-4cb0-b955-3aeb2c850ebe: 'A mat foot' # A mat foot
+    dc8a137a-73b2-4265-8824-3bae6e662462: Confirmed # Confirmed
+    dcd08ed8-faa8-45a2-8716-27077ce6410f: Invoice # Invoice
+    dcef5c5f-2446-44fa-8898-1bc3daa2d2fd: 'Equipment Types' # Equipment Types
+    dd51c8ea-35f4-4c2b-951f-d941d6a7aefe: 'A nested entry' # A nested entry
+    e4ccb683-cac2-4175-8c63-fff35c532e23: 'Try new Temp' # Try new Temp
+    e5fee05c-b478-4731-9487-7e1c6231c8ed: Alinkit # Alinkit
+    e7ec0fe3-e0bc-474d-837d-3159984e36f3: SEO # SEO
+    e9aeb271-1582-40b5-b7c8-dc4bed8d7bfe: 'Store Managers' # Store Managers
+    e9eeb095-1668-49fe-99a2-36721c1bdbec: Icon # Icon
+    e57db4c9-d175-4d90-a17b-56a4a2b6fd61: French # French
+    e60fd5c1-9f1b-496d-8369-a9daafcc185d: 'Plain Text 2' # Plain Text 2
+    e83b5800-3833-4747-bd6a-a92570030783: 'A zero mat block' # A zero mat block
+    ea02150d-88e1-46f5-ab32-052940c08072: 'Business Address' # Business Address
+    edcd5813-3fcd-4824-9a2e-e1f6d92c7fdf: Subheading # Subheading
+    f2df00c0-373c-4c6a-8b92-af04075dd56c: Contact # Contact
+    f2df390b-5944-4f48-af72-4282086a9665: 'The verb navigation' # The verb navigation
+    f3c02b05-5d6b-423e-96b9-0071d0284f5b: Dashboard # Dashboard
+    f3de475b-4a85-4e74-b144-4ff3e464f057: 'Bike Type' # Bike Type
+    f3f95bdd-2a44-449d-8fa8-a4c78d5c7bbf: 'Hypers add' # Hypers add
+    fa77ff2b-9cc7-46c8-b862-67e1ab322c79: 'Turbo ' # Turbo 
+    fa972a7e-5822-4b4d-a98c-b95fb8a5514e: 'A zero mat section channel' # A zero mat section channel
+    faa46726-2afd-409a-8dfe-3a414d254864: 'A nav nested Fields Block' # A nav nested Fields Block
+    fcaf6130-3481-4680-bf31-2ee9b178c554: Stars # Stars
+    fdc2ee5d-fd0a-43ee-949d-4ee44d916065: 'Hypers section' # Hypers section
+    ffe46793-3b3a-449d-a04e-5481d759fb9f: Reviews # Reviews
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '2.0'
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: SI24H20R5SQCC22FZMXL94F7
+    schemaVersion: 5.0.72
+  default-dashboard:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      excludeAdmin: ''
+      logErrors: false
+      logInfo: false
+      override: ''
+      userDashboard: '1'
+  freeform:
+    edition: pro
+    enabled: true
+    licenseKey: 5MSLVVCLNO91XX5P8MBVKF1N
+    schemaVersion: 5.0.22
+    settings:
+      ajaxByDefault: false
+      alertNotificationRecipients: ''
+      autoScroll: true
+      autoScrollToErrors: true
+      badgeType: ''
+      blockedEmails: null
+      blockedEmailsError: 'Invalid Email Address'
+      blockedIpAddresses: null
+      blockedKeywords: null
+      blockedKeywordsError: 'Invalid Entry Data'
+      bypassSpamCheckOnLoggedInUsers: false
+      clientDigestFrequency: '1'
+      clientDigestRecipients: ''
+      customErrorMessage: null
+      customHoneypotName: null
+      defaultTemplates: true
+      defaultView: dashboard
+      digestFrequency: '1'
+      digestOnlyOnProduction: ''
+      digestRecipients: ''
+      displayFeed: ''
+      emailTemplateDirectory: null
+      exportLabels: ''
+      fieldDisplayOrder: name
+      fillWithGet: false
+      footerScripts: false
+      formFieldShowOnlyAllowedForms: ''
+      formSubmitDisable: false
+      formSubmitExpiration: null
+      formTemplateDirectory: null
+      formattingTemplate: flexbox.twig
+      freeformHoneypot: true
+      freeformHoneypotEnhancement: false
+      hideBannerDemo: '1'
+      hideBannerOldFreeform: false
+      minimumSubmitTime: null
+      pluginName: ''
+      purgableSpamAgeInDays: null
+      purgableSubmissionAgeInDays: '0'
+      purgableUnfinalizedAssetAgeInMinutes: 180
+      recaptchaBehaviour: display_error
+      recaptchaEnabled: false
+      recaptchaErrorMessage: 'Please verify that you are not a robot.'
+      recaptchaKey: null
+      recaptchaLazyLoad: false
+      recaptchaMinScore: 0.5
+      recaptchaSecret: null
+      recaptchaSize: normal
+      recaptchaTheme: light
+      recaptchaType: v2_checkbox
+      rememberPageSubmitOrder: true
+      removeNewlines: ''
+      renderFormHtmlInCpViews: true
+      salesforce_client_id: null
+      salesforce_client_secret: null
+      salesforce_password: null
+      salesforce_username: null
+      saveFormSessionLimit: 10
+      saveFormTtl: 30
+      scriptInsertLocation: footer
+      scriptInsertType: pointers
+      sessionContext: payload
+      sessionContextCount: 100
+      sessionContextSecret: ''
+      sessionContextTimeToLiveMinutes: 180
+      sessionEntryMaxCount: 50
+      sessionEntryTTL: 10800
+      showErrorsForBlockedEmails: false
+      showErrorsForBlockedKeywords: false
+      showTutorial: false
+      spamFolderEnabled: true
+      spamProtectionBehaviour: simulate_success
+      submissionThrottlingCount: null
+      submissionThrottlingTimeFrame: null
+      successTemplateDirectory: null
+      twigInHtml: true
+      twigInHtmlIsolatedMode: true
+      updateSearchIndexes: '1'
+  guide:
+    edition: lite
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      assetVolume: 994a420b-cb3e-4813-be6a-dd7ac7f55c6b # Images
+      clientName: ''
+      myCompanyName: ''
+      templatePath: _guide
+  hyper:
+    edition: standard
+    enabled: true
+    licenseKey: 4ACJAQEZ2ORYAOSSMHSDNYNG
+    schemaVersion: 1.0.0
+  linkit:
+    edition: standard
+    enabled: true
+    licenseKey: 38LTWFC4YVZ89U13KXT3FECL
+    schemaVersion: 1.2.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: 68AV2TG8V13K3XW433DPARAC
+    schemaVersion: 2.1.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: WRI3RMSQQ0H9XWZV0QH9FRE0
+    schemaVersion: 3.0.12
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: '⚙ '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - '''self'''
+      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
+      devModeTitlePrefix: '&#x1f6a7; '
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableJsonLdEndpoint: false
+      enableMetaContainerEndpoint: false
+      enableSeoFileLinkEndpoint: false
+      environment: live
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 155
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: SEOmatic
+      regenerateSitemapsAutomatically: false
+      renderEnabled: true
+      separatorChar: '-'
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+      siteGroupsSeparate: '1'
+      siteUrlOverride: ''
+      sitemapsEnabled: true
+      socialMediaPreviewTarget: true
+      submitSitemaps: false
+      truncateDescriptionTags: '1'
+      truncateTitleTags: '1'
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  starfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  store-hours:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.2
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+  translations:
+    edition: standard
+    enabled: true
+    licenseKey: UFV1MZEQ2RI8B8V9TJJBFX99
+    schemaVersion: 1.4.2
+    settings:
+      apiLogging: '1'
+      chkDuplicateEntries: '1'
+      preventSlugTranslation: ''
+      targetStringPosition: ''
+      trackSourceChanges: '1'
+      trackTargetChanges: ''
+      twigSearchFilterDoubleQuote: ''
+      twigSearchFilterSingleQuote: ''
+      uploadVolume: '0'
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: pro
+  live: true
+  name: 'Spoke & Chain'
+  retryDuration: null
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles

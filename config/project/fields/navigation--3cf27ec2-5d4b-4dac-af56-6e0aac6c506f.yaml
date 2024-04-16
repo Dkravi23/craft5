@@ -1,0 +1,9 @@
+columnSuffix: vcwuizbf
+contentColumnType: text
+handle: navigation
+instructions: 'Will be exploring its feature.'
+name: Navigation
+searchable: false
+translationKeyFormat: null
+translationMethod: site
+type: verbb\navigation\fields\NavigationField

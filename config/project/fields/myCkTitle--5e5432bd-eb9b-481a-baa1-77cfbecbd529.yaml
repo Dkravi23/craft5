@@ -1,0 +1,22 @@
+columnSuffix: zkastbva
+contentColumnType: text
+handle: myCkTitle
+instructions: null
+name: 'My ck title'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: 81039de6-8440-4a7f-85f4-2e5753d11e15 # Simple
+  columnType: text
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: true
+  wordLimit: 20
+translationKeyFormat: null
+translationMethod: language
+type: craft\ckeditor\Field

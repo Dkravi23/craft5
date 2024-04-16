@@ -1,0 +1,101 @@
+color: null
+fieldLayouts:
+  58c9a16f-8069-4bad-84f9-24017773ec75:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c78c4d80-ebf8-4a17-aef4-34f4db7d5dbd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86ec2b26-5d53-4798-8fb0-927890e52039 # Body
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62f353d0-0945-4c6d-9485-825b4cc986e4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f3de475b-4a85-4e74-b144-4ff3e464f057 # Bike Type
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4f2f2b1-677b-4ec1-9703-c3603c5e66bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c0fbb866-9720-47d1-9d58-ea0d78772671
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4f1a5b5f-cd1a-4c83-b31a-c7f9f3daa4bc # a zero fields
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb279eb4-64fc-49b5-a0d1-45c5c1cce6ee
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Super Table'
+        uid: 1d4edff0-ccc2-4d0e-977e-9f16c752b5a6
+        userCondition: null
+handle: aZeroEntry
+hasTitleField: true
+icon: ''
+name: 'a zero entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: aZeroMatFields011
+instructions: null
+name: 'A zero mat fields 011'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - e83b5800-3833-4747-bd6a-a92570030783 # A zero mat block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

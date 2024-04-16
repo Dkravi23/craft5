@@ -1,0 +1,8 @@
+columnSuffix: uckgyfpr
+handle: parentField
+instructions: 'This is parent'
+name: 'A nav nested Fields - Parent Field'
+searchable: false
+translationKeyFormat: null
+translationMethod: site
+type: verbb\navigation\fields\NavigationField

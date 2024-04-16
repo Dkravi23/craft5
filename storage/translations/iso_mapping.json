@@ -1,0 +1,27 @@
+{
+  "updated": "2022-10-17 13:10:01",
+  "isoMappingTable": {
+    "af-NA": "af",
+    "af-ZA": "af",
+    "ar-001": "ar",
+    "ar-AE": "ar",
+    "da-DK": "da",
+    "de": "de-de",
+    "en": "en-us",
+    "es-419": "es-la",
+    "fi-FI": "fi",
+    "fr": "fr-fr",
+    "it-IT": "it",
+    "ja-JP": "ja",
+    "ko-KR": "ko",
+    "pl-PL": "pl",
+    "pt": "pt-pt",
+    "ru-RU": "ru",
+    "sv-SE": "sv",
+    "th-TH": "th",
+    "vi-VN": "vi",
+    "zh-Hans": "zh-CN",
+    "zh-Hans-CN": "zh-CN",
+    "zh-Hant": "zh-TW"
+  }
+}

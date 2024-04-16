@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: aZeroFields
+instructions: null
+name: 'a zero fields'
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: null
+  entryTypes:
+    - 24daf9b4-bce0-43b4-aef8-268077f37460 # a zero entry
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

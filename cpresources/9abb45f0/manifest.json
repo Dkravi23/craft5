@@ -1,0 +1,43 @@
+{
+  "__plugin-vue2_normalizer-GTIfvTtm.js": {
+    "file": "assets/_plugin-vue2_normalizer-GTIfvTtm.js"
+  },
+  "src/js/content-seo.js": {
+    "css": [
+      "assets/content-seo-Giv5N7ev.css"
+    ],
+    "file": "assets/content-seo-gI1u1G_9.js",
+    "imports": [
+      "__plugin-vue2_normalizer-GTIfvTtm.js"
+    ],
+    "isEntry": true,
+    "src": "src/js/content-seo.js"
+  },
+  "src/js/dashboard.js": {
+    "file": "assets/dashboard-_FYjRlxc.js",
+    "imports": [
+      "__plugin-vue2_normalizer-GTIfvTtm.js"
+    ],
+    "isEntry": true,
+    "src": "src/js/dashboard.js"
+  },
+  "src/js/seomatic-meta.js": {
+    "css": [
+      "assets/seomatic-meta-5Xhz8OwB.css"
+    ],
+    "file": "assets/seomatic-meta-_MISoTat.js",
+    "imports": [
+      "__plugin-vue2_normalizer-GTIfvTtm.js"
+    ],
+    "isEntry": true,
+    "src": "src/js/seomatic-meta.js"
+  },
+  "src/js/seomatic.js": {
+    "css": [
+      "assets/seomatic-Oe0o_wUu.css"
+    ],
+    "file": "assets/seomatic-TIRao9FJ.js",
+    "isEntry": true,
+    "src": "src/js/seomatic.js"
+  }
+}

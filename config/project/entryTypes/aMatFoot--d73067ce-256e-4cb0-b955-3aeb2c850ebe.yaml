@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  f5e461a3-7c51-4ab1-bde8-836b4ddf79ab:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d5a6d817-61ef-4d6e-9787-86bee9ba789f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 363966b4-814e-4894-b747-a7e09d01278c # A matrix fields
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a80d5eda-9af1-45a5-90f9-06e1c67cbe1b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d484798b-13e5-4250-a837-6cfdfe8f61bc
+        userCondition: null
+handle: aMatFoot
+hasTitleField: true
+icon: ''
+name: 'A mat foot'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

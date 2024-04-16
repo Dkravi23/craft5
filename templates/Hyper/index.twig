@@ -1,0 +1,15 @@
+{% extends "index" %}
+ {% block content %} 
+ {# Check if the entry exists #}
+ <div style="display: flex; justify-content: space-around; flex-direction: column; margin: auto">
+<h1>Our Blog</h1>
+
+{% set intros = craft.entries.section("aFreshHyper").all() %} 
+{% for intro in intros %}
+
+<h1>{{intro.title}}</h1>
+<p>{{intro.body}}</p>
+<a href="{{intro.hypers}}">This is a link</a>
+{% endfor %} 
+ </div>
+{% endblock %}

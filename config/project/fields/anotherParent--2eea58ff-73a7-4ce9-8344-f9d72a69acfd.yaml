@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: anotherParent
+instructions: null
+name: 'A nav nested Fields - Another Parent'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 745f72af-f680-4066-9f39-294de29e1c6f
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 088dc60e-2197-499b-9a5a-af2132ea3038 # Hero ck editor
+handle: heroCkEditor
+name: 'Hero ck editor'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabledByDefault: true
+    hasUrls: true
+    template: _includes\components\address\fields.twig
+    uriFormat: hero-ck-editor
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabledByDefault: true
+    hasUrls: true
+    template: _includes\components\address\fields.twig
+    uriFormat: hero-ck-editor
+  e57db4c9-d175-4d90-a17b-56a4a2b6fd61: # French
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

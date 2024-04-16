@@ -1,0 +1,70 @@
+fieldLayouts:
+  45b2ee4a-a580-4b5c-bf5d-fb85512289c6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: baf6fad0-bb16-403e-9138-7507683b1468
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3cf27ec2-5d4b-4dac-af56-6e0aac6c506f # Navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42967135-ea5d-44bb-b85e-451f12617f92
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c2f826d-88d8-4394-8f00-679ff7e1edbf # A Super table fileds
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff07d584-6a74-48c4-b125-be3d3442a394
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b3a011f1-c1fc-47a8-87f5-3d649914d710
+        userCondition: null
+handle: topNav
+hasTitleField: true
+name: 'Top nav'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

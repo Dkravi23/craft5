@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - e4ccb683-cac2-4175-8c63-fff35c532e23 # Try new Temp
+handle: tryNewTemp
+name: 'Try new Temp'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}/try-new'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5712e1f3-7800-493e-b74b-c2887dc25c81: # Spoke & Chain
+    enabledByDefault: true
+    hasUrls: true
+    template: _includes\components\heroTemplate\my-entry.twig
+    uriFormat: try-new-temp
+  74347624-30b3-4f4d-a46d-7010dfdb3566: # Spanish-US
+    enabledByDefault: true
+    hasUrls: true
+    template: _includes\components\heroTemplate\my-entry.twig
+    uriFormat: try-new-temp
+  e57db4c9-d175-4d90-a17b-56a4a2b6fd61: # French
+    enabledByDefault: true
+    hasUrls: true
+    template: _includes\components\heroTemplate\my-entry.twig
+    uriFormat: try-new-temp
+type: single

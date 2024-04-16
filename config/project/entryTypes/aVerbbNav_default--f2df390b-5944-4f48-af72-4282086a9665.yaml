@@ -1,0 +1,68 @@
+fieldLayouts:
+  b8c9ede9-fd40-4328-8503-12512c2d91b1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 11b7ec03-44dd-4cdd-ada1-8121b4d49f76
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: d3fad61c-dfb9-4da2-bb75-6d2910c3c4ca # Plain Text 1
+                  operator: '='
+                  uid: 918e3f3c-676c-4af5-a874-1d35588d35ae
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 3cf27ec2-5d4b-4dac-af56-6e0aac6c506f # Navigation
+            instructions: 'Get to know.'
+            label: 'I am Label'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22036e57-41a0-4deb-8671-3f78098fe25f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c2b0fabe-9136-4342-8bb6-0afd6d6b4f85
+        userCondition: null
+handle: aVerbbNav_default
+hasTitleField: true
+name: 'The verb navigation'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

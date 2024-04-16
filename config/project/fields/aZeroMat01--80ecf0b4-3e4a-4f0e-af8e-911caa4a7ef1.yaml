@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: aZeroMat01
+instructions: null
+name: 'A zero mat 01'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 0b6f81b0-efbb-446d-bc40-e3f2bdaf7f88 # A zero mat 01
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

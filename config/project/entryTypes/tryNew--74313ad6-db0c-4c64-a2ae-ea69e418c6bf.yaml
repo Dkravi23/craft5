@@ -1,0 +1,46 @@
+fieldLayouts:
+  e99a8f1e-aeb7-4612-a1d1-ce67c725415c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3aef4bb5-b640-4ac0-aa6d-8c93537305d2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: decde902-66dd-4d9f-adae-022bed6ad04e
+        userCondition: null
+handle: tryNew
+hasTitleField: false
+name: 'Try new'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
